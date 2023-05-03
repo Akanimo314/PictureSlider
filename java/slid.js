@@ -15,4 +15,4 @@ function slideShow(){
     }
 }
 
-setInterval(slideShow, 1000)
+setInterval(slideShow, 3000)
