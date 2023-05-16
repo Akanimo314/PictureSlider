@@ -4,7 +4,7 @@ const imageVar = document.getElementById("image");
 const imageArrays = ["./image/slid5.jpg", "./image/slid6.jpg", "./image/slid 1.webp", 
 "./image/slid 2.webp", "./image/slid 3.webp", "./image/slid 4.webp"]
 
-let imageIndex = 0
+let imageIndex = 1
 
 function slideShow(){
     imageVar.setAttribute("src", imageArrays[imageIndex])
